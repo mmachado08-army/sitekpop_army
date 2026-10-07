@@ -1,0 +1,151 @@
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+
+body {
+    background-color: #f8f0ff;
+    color: #302438;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* ===== CABEÇALHO ===== */
+
+header {
+    background: linear-gradient(135deg, #6a4c93, #8e6bb8);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* ===== MENU ===== */
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #d9b8ff;
+    color: #4b306b;
+}
+
+/* ===== CONTEÚDO ===== */
+
+main {
+    max-width: 950px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #6a4c93;
+    margin-top: 0;
+}
+
+h3 {
+    color: #8e5bb7;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* ===== LISTAS ===== */
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===== LINKS ===== */
+
+main a {
+    color: #7650a8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* ===== FORMULÁRIO ===== */
+
+form {
+    margin-top: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    margin-top: 6px;
+    border: 2px solid #dcc8ee;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8e6bb8;
+}
+
+/* ===== BOTÃO ===== */
+
+button {
+    background-color: #6a4c93;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e6bb8;
+}
+
+/* ===== RODAPÉ ===== */
+
+footer {
+    background-color: #6a4c93;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+}
+header img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
