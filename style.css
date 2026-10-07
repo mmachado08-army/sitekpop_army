@@ -63,7 +63,14 @@ h2 {
     color: #6a4c93;
     margin-top: 0;
 }
-
+.lightsticks {
+    display: block;
+    width: 300px;
+    max-width: 90%;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(90, 50, 150, 0.3);
+}
 h3 {
     color: #8e5bb7;
 }
@@ -140,7 +147,24 @@ footer {
     background-color: #6a4c93;
     color: white;
     text-align: center;
-    padding: 18px;
+    pa
+button {
+    background-color: #6a4c93;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e6bb8;
+}
+
+/* ===== RODAPÉ ===== */
+dding: 18px;
     margin-top: 40px;
 }
 header img {
@@ -148,4 +172,32 @@ header img {
     height: auto;
     display: block;
     margin: 10px auto;
+}
+section img {
+    width: 80%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}bb8;
+
+{
+
+/* ===== RODAPÉ ===== */
+dding: 18px;
+    margin-top: 40px;
+}
+header img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.lightsticks {
+    display: block;
+    width: 300px;
+    max-width: 90%;
+    margin: 25px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(90, 50, 150, 0.3);
 }
